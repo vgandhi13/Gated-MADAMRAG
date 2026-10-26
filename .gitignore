@@ -1,0 +1,10 @@
+**/__pycache__/
+*.py[cod]
+/.venv/
+/env/
+/results/
+/logs/
+/cache/
+/data/*
+!/data/download_manifest.json
+**/IR_Project_Proposal*.pdf

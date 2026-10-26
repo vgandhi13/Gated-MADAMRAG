@@ -1,0 +1,27 @@
+{
+  "downloaded_at_utc": "2026-10-26T02:42:58.262593+00:00",
+  "files": [
+    {
+      "path": "ramdocs/RAMDocs_test.jsonl",
+      "source_url": "https://huggingface.co/datasets/HanNight/RAMDocs/resolve/main/RAMDocs_test.jsonl",
+      "resolved_url": "https://huggingface.co/api/resolve-cache/datasets/HanNight/RAMDocs/9c041bfd158c603b615883d9a931b00cbc141494/RAMDocs_test.jsonl?%2Fdatasets%2FHanNight%2FRAMDocs%2Fresolve%2Fmain%2FRAMDocs_test.jsonl=&etag=%22336ecb8050e25aa75d90603e9544abf957a90301%22",
+      "bytes": 1931157,
+      "sha256": "c67f699c97349f00cf1bd08d1dbf8ca1d0cc38c306715c93a10a4f961dcf28b7",
+      "examples": 500,
+      "documents": 2766,
+      "matches_repository_copy": true
+    },
+    {
+      "path": "triviaqa/trivia-test.qa.csv.gz",
+      "source_url": "https://dl.fbaipublicfiles.com/dpr/data/retriever/trivia-test.qa.csv.gz",
+      "resolved_url": "https://dl.fbaipublicfiles.com/dpr/data/retriever/trivia-test.qa.csv.gz",
+      "bytes": 1395592,
+      "sha256": "e8adaadb1e5b4f010b17b34a47e2ccac5dc6e4a863588642d5d292c682f1bc1f",
+      "examples": 11313,
+      "contains_retrieved_passages": false,
+      "uncompressed_path": "triviaqa/trivia-test.qa.csv",
+      "uncompressed_bytes": 4098200,
+      "uncompressed_sha256": "041ed9ddd2977c7fe452d290cf60e1f7e0a803977b0f912e234d218261c10e57"
+    }
+  ]
+}
