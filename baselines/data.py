@@ -6,7 +6,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DATASETS = {
     'ramdocs': ROOT / 'data/ramdocs/RAMDocs_test.jsonl',
-    'triviaqa': ROOT / 'data/triviaqa/TriviaQA_fid_test_500.jsonl',
+    'triviaqa': ROOT / 'data/triviaqa_top5/TriviaQA_fid_test_500.jsonl',
 }
 
 

@@ -157,7 +157,13 @@ def main():
         "--require-answer-string", action="store_true",
         help="Use rejection sampling to require a reference alias in at least one supplied passage.",
     )
+    parser.add_argument(
+        "--top-k", type=int,
+        help="Keep only the first k passages in FiD retrieval order (default: all).",
+    )
     args = parser.parse_args()
+    if args.top_k is not None and args.top_k < 1:
+        parser.error("--top-k must be positive")
     if not os.environ.get("SLURM_JOB_ID"):
         parser.error("Submit this download/corpus scan through Slurm.")
     args.cache_dir.mkdir(parents=True, exist_ok=True)
@@ -194,6 +200,8 @@ def main():
         question_id = source["QuestionId"]
         selected_ids = passage_selections[question_id]
         assert selected_ids and len(selected_ids) == len(set(selected_ids))
+        # Truncate by retrieval rank only, before any answer-presence check.
+        selected_ids = selected_ids[:args.top_k]
         target = source["Answer"]["Value"]
         examples.append({
             "id": question_id,
@@ -230,6 +238,7 @@ def main():
     if remaining:
         raise ValueError(f"Missing {len(remaining)} selected passage IDs; examples: {sorted(remaining)[:5]}")
     log(f"Corpus scan finished in {time.monotonic() - start:.1f} seconds")
+    coverage_ks = [k for k in (1, 5, 10, 20, 50, 100) if k <= (args.top_k or 100)]
     diagnostics, coverage = [], collections.Counter()
     sample_counts = collections.Counter()
     for example in examples:
@@ -244,7 +253,7 @@ def main():
             "first_answer_rank": first_hit,
             "passage_has_answer_string": hits,
         })
-        for k in (1, 5, 10, 20, 50, 100):
+        for k in coverage_ks:
             coverage[k] += any(hits[:k])
     eligible_candidates = sum(diagnostic["has_answer_string"] for diagnostic in diagnostics)
     if args.require_answer_string:
@@ -263,10 +272,10 @@ def main():
         sample_counts = collections.Counter(len(example["ctxs"]) for example in examples)
         coverage = collections.Counter({
             k: sum(any(diagnostic["passage_has_answer_string"][:k]) for diagnostic in diagnostics)
-            for k in (1, 5, 10, 20, 50, 100)
+            for k in coverage_ks
         })
         assert all(diagnostic["has_answer_string"] for diagnostic in diagnostics)
-        log(f"Accepted {len(examples)} of {eligible_candidates} eligible candidates; coverage@100=100%")
+        log(f"Accepted {len(examples)} of {eligible_candidates} eligible candidates; full answer-string coverage")
     assert len(examples) == len({example["id"] for example in examples}) == args.sample_size
     assert len({example["question"] for example in examples}) == args.sample_size
     assert all(example["answers"] and all(context["text"] for context in example["ctxs"]) for example in examples)
@@ -316,6 +325,7 @@ def main():
             "Python random.Random(seed).sample(range(full_test_questions), sample_size); without replacement; random order; no answer-presence filtering"
         ),
         "require_answer_string": args.require_answer_string,
+        "top_k": args.top_k,
         "candidate_fid_test_indices": candidate_indices,
         "candidate_questions_evaluated": len(candidate_indices),
         "candidate_questions_with_answer_string": eligible_candidates,
@@ -328,7 +338,8 @@ def main():
         "answer_string_coverage": {str(k): {"questions": coverage[k], "fraction": coverage[k] / len(examples)} for k in sorted(coverage)},
         "answer_presence_method": "FiD/DPR Unicode-NFD, lowercase token-sequence matching against answers aliases in passage text only; Unicode L/N/M word tokens and single non-Z/non-C tokens. This checks answer strings, not factual support.",
         "slurm_job_id": os.environ["SLURM_JOB_ID"],
-        "cache_directory": str(args.cache_dir.resolve()),
+        "cache_directory": str(args.cache_dir.resolve()).replace(
+            os.environ.get("GATED_WORK", "\0"), "$GATED_WORK"),
         "script_sha256": fingerprint(Path(__file__))["sha256"],
         "upstream_preparation": "https://github.com/facebookresearch/FiD/blob/main/src/preprocess.py",
         "upstream_evaluation": "https://github.com/facebookresearch/FiD/blob/main/src/evaluation.py",
@@ -336,11 +347,12 @@ def main():
         "files": files,
     }
     write_json(args.output_dir / "manifest.json", summary)
+    passage_scope = f"first {args.top_k} retrieved" if args.top_k else "100"
     sampling_description = (
         f"{len(examples)} questions sampled from the {len(test_indices):,}-question FiD test split using Python "
         f"random seed {args.seed}, without replacement. Candidates were drawn in random order; the first "
         f"{args.sample_size} questions with a reference answer alias in at least one of their supplied passages "
-        f"were retained. Every retained question has answer-string coverage among its 100 passages. "
+        f"were retained. Every retained question has answer-string coverage among its {passage_scope} passages. "
         f"This is an answer-present subset, so its retrieval coverage is not representative of the full test set."
         if args.require_answer_string else
         f"{len(examples)} questions sampled uniformly without replacement from the {len(test_indices):,}-question "
@@ -350,7 +362,7 @@ def main():
 
 {sampling_description} The FiD test split is selected from the original TriviaQA unfiltered web development split using the official TQA.test.idx.json file.
 
-- `{stem}.jsonl`: one question per line, with every officially supplied passage in its original order.
+- `{stem}.jsonl`: one question per line, with the {passage_scope} officially supplied passages in their original order.
 - `{stem}.json`: the same records as a JSON array for FiD-style loaders.
 - `{stem}.answer_presence.jsonl`: separate evaluation annotations, joined by `id`.
 - `manifest.json`: source URLs and SHA-256 hashes, selected question IDs and indices, sampling procedure, counts, and answer-string coverage.
@@ -387,7 +399,7 @@ Sources and preparation:
     temporary_readme = args.output_dir / "README.md.partial"
     temporary_readme.write_text(readme, encoding="utf-8")
     temporary_readme.replace(args.output_dir / "README.md")
-    log(f"Finished: {args.output_dir}; coverage@100={coverage[100]}/{len(examples)}")
+    log(f"Finished: {args.output_dir}; coverage@{coverage_ks[-1]}={coverage[coverage_ks[-1]]}/{len(examples)}")
 
 
 if __name__ == "__main__":

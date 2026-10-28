@@ -13,7 +13,8 @@ source "${SLURM_SUBMIT_DIR:-$PWD}/baselines/env.sh"
 
 python3 -u "$GATED_ROOT/scripts/prepare_fid_triviaqa.py" \
     --cache-dir "$GATED_WORK/triviaqa_fid/sources" \
-    --output-dir "$GATED_ROOT/data/triviaqa" \
+    --output-dir "$GATED_ROOT/data/triviaqa_top5" \
     --sample-size 500 \
     --seed 42 \
+    --top-k 5 \
     --require-answer-string

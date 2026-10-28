@@ -165,7 +165,7 @@ class BaselineTests(unittest.TestCase):
                 for doc in example['documents']:
                     self.assertEqual(set(doc), {'id', 'title', 'text'})
                 if dataset == 'triviaqa':
-                    self.assertEqual(len(example['documents']), 100)
+                    self.assertEqual(len(example['documents']), 5)
 
     def test_l4_profile_reduces_only_scheduling_settings(self):
         args = types.SimpleNamespace(batch_size=32, madam_batch_size=32, max_num_seqs=32,

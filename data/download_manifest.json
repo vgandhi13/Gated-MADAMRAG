@@ -12,47 +12,50 @@
       "matches_repository_copy": true
     },
     {
-      "path": "triviaqa/TriviaQA_fid_test_500.jsonl",
-      "bytes": 34176988,
-      "sha256": "cb309c45d4687407221bfbcc5835c6e77ab3eac999584d302329927a25685b6f",
+      "path": "triviaqa_top5/TriviaQA_fid_test_500.jsonl",
+      "bytes": 1941940,
+      "sha256": "510a977cc5c995fa9d0f507f3f542e4fec3ee3551e6b12e04094e5b62b2fce44",
       "examples": 500,
       "source_dataset": "FiD TriviaQA",
       "source_split": "test",
       "random_seed": 42,
-      "manifest_path": "triviaqa/manifest.json",
+      "top_k": 5,
+      "manifest_path": "triviaqa_top5/manifest.json",
       "contains_retrieved_passages": true,
       "require_answer_string": true,
       "answer_present_questions": 500,
-      "sampling": "Random candidates without replacement; retain first 500 with a reference answer string in supplied passages."
+      "sampling": "Random candidates without replacement; keep the first 5 passages in FiD retrieval order; retain first 500 with a reference answer string in those 5 passages."
     },
     {
-      "path": "triviaqa/TriviaQA_fid_test_500.answer_presence.jsonl",
-      "bytes": 404731,
-      "sha256": "b2a447b66c403342187639a910b56fd0760a9faf10fe7775e6ee850943ed5a85",
+      "path": "triviaqa_top5/TriviaQA_fid_test_500.answer_presence.jsonl",
+      "bytes": 82722,
+      "sha256": "72f3c47c089b99b87a865942b36d6c3d88b9980b7db5590520fc7f15dba1279d",
       "examples": 500,
       "source_dataset": "FiD TriviaQA",
       "source_split": "test",
       "random_seed": 42,
-      "manifest_path": "triviaqa/manifest.json",
+      "top_k": 5,
+      "manifest_path": "triviaqa_top5/manifest.json",
       "contains_retrieved_passages": false,
       "require_answer_string": true,
       "answer_present_questions": 500,
-      "sampling": "Random candidates without replacement; retain first 500 with a reference answer string in supplied passages."
+      "sampling": "Random candidates without replacement; keep the first 5 passages in FiD retrieval order; retain first 500 with a reference answer string in those 5 passages."
     },
     {
-      "path": "triviaqa/TriviaQA_fid_test_500.json",
-      "bytes": 34177489,
-      "sha256": "61f615b3361118bf1f383592f45cd6df5180005db001e5b50cc1f7a0480fa1e8",
+      "path": "triviaqa_top5/TriviaQA_fid_test_500.json",
+      "bytes": 1942441,
+      "sha256": "32697b81c8c3648bf672c3088d67841f2b88a17c34db38ada6c1eb31a2d7be6d",
       "examples": 500,
       "source_dataset": "FiD TriviaQA",
       "source_split": "test",
       "random_seed": 42,
-      "manifest_path": "triviaqa/manifest.json",
+      "top_k": 5,
+      "manifest_path": "triviaqa_top5/manifest.json",
       "contains_retrieved_passages": true,
       "require_answer_string": true,
       "answer_present_questions": 500,
-      "sampling": "Random candidates without replacement; retain first 500 with a reference answer string in supplied passages."
+      "sampling": "Random candidates without replacement; keep the first 5 passages in FiD retrieval order; retain first 500 with a reference answer string in those 5 passages."
     }
   ],
-  "updated_at_utc": "2026-10-27T23:22:17.239268+00:00"
+  "updated_at_utc": "2026-10-28T06:24:32.349153+00:00"
 }

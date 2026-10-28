@@ -21,13 +21,14 @@ the runner uses three maximum rounds. The original main() routine's 4-bit loadin
 is bypassed so all methods use the same model precision and inference backend.
 These are local Qwen3-8B experiments, not reproductions of published larger-model scores.
 
-RAMDocs uses all 1–12 documents. TriviaQA uses all 100 passages in their original
-order. There is no top-k filtering, reranking, answer-based passage selection,
+RAMDocs uses all 1–12 documents. TriviaQA uses the top 5 of FiD's 100 DPR passages,
+in retrieval order; the cutoff is applied by rank only when the sample is built
+(`data/triviaqa_top5/`). There is no reranking, answer-based passage selection,
 indexing, or silent context truncation. A prompt exceeding the 24,576-token context
 fails explicitly. Only question and passage title/text reach the model; answers,
 misinformation labels, disambiguation annotations, and answer-presence labels stay
-in evaluation. The TriviaQA sample is already conditioned on answer presence among
-100 passages, as documented in `data/triviaqa/README.md`.
+in evaluation. The TriviaQA sample is conditioned on answer presence among its
+top 5 passages, as documented in `data/triviaqa_top5/README.md`.
 
 ## Setup and launch
 
