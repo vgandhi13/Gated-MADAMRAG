@@ -1,0 +1,21 @@
+% Requires \usepackage{booktabs}
+\begin{table*}[t]
+\centering
+\caption{Results of No RAG, Standard RAG, MADAM-RAG, and Debate Gating with Qwen3-8B on 500 RAMDocs and 500 TriviaQA questions. Token columns are mean tokens per question; cost is relative to MADAM-RAG. Best values are in bold.}
+\label{tab:baseline-results}
+\begin{tabular}{llrrrrrrr}
+\toprule
+Dataset & Baseline & Acc. & Prec. & Rec. & F1 & In tok. & Out tok. & Cost \\
+\midrule
+RAMDocs  & No RAG        & 1.4  & 9.9  & 5.6  & 6.9  & 86       & 11      & 0.8\% \\
+         & Standard RAG  & 22.6 & 65.7 & 56.4 & 57.7 & 978      & 17      & 8.5\% \\
+         & MADAM-RAG     & \textbf{26.8} & \textbf{67.6} & 63.5 & 62.1 & 10{,}072 & 1{,}652 & 100\% \\
+         & Debate Gating & 23.8 & 63.3 & \textbf{71.2} & \textbf{64.7} & 2{,}649 & 257 & 24.8\% \\
+\midrule
+TriviaQA & No RAG        & 50.2 & 50.8 & 51.6 & 51.1 & 95       & 10      & 1.1\% \\
+         & Standard RAG  & \textbf{77.0} & 78.7 & 80.8 & 79.3 & 882 & 11 & 9.3\% \\
+         & MADAM-RAG     & 75.2 & \textbf{78.9} & 82.8 & \textbf{80.2} & 8{,}048 & 1{,}515 & 100\% \\
+         & Debate Gating & 56.0 & 68.8 & \textbf{83.8} & 73.5 & 2{,}612 & 283 & 30.3\% \\
+\bottomrule
+\end{tabular}
+\end{table*}

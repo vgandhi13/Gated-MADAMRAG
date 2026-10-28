@@ -1,0 +1,786 @@
+Hardware: 4 cores, 4845 MB available RAM, load 0 -> 8 question workers, 16 max in-flight requests
+ramdocs: 0 saved, 500 remaining
+ramdocs: 1/500 (ramdocs:0002, 1 rounds, 8 calls, 7.5s, $0.00019)
+ramdocs: 2/500 (ramdocs:0003, 1 rounds, 6 calls, 7.8s, $0.00015)
+ramdocs: 3/500 (ramdocs:0000, 1 rounds, 4 calls, 8.1s, $0.00011)
+ramdocs: 4/500 (ramdocs:0006, 1 rounds, 6 calls, 8.2s, $0.00015)
+ramdocs: 5/500 (ramdocs:0007, 1 rounds, 4 calls, 9.2s, $0.00009)
+ramdocs: 6/500 (ramdocs:0005, 1 rounds, 6 calls, 9.9s, $0.00013)
+ramdocs: 7/500 (ramdocs:0004, 1 rounds, 4 calls, 10.0s, $0.00009)
+ramdocs: 8/500 (ramdocs:0001, 1 rounds, 5 calls, 10.6s, $0.00012)
+ramdocs: 9/500 (ramdocs:0008, 1 rounds, 3 calls, 5.7s, $0.00006)
+ramdocs: 10/500 (ramdocs:0010, 1 rounds, 4 calls, 5.7s, $0.00007)
+ramdocs: 11/500 (ramdocs:0011, 1 rounds, 4 calls, 7.6s, $0.00010)
+ramdocs: 12/500 (ramdocs:0009, 1 rounds, 5 calls, 8.3s, $0.00015)
+ramdocs: 13/500 (ramdocs:0012, 1 rounds, 8 calls, 7.5s, $0.00019)
+ramdocs: 14/500 (ramdocs:0014, 1 rounds, 4 calls, 6.9s, $0.00009)
+ramdocs: 15/500 (ramdocs:0015, 1 rounds, 7 calls, 7.3s, $0.00016)
+ramdocs: 16/500 (ramdocs:0016, 1 rounds, 3 calls, 5.6s, $0.00006)
+ramdocs: 17/500 (ramdocs:0017, 1 rounds, 3 calls, 6.2s, $0.00006)
+ramdocs: 18/500 (ramdocs:0013, 1 rounds, 5 calls, 12.6s, $0.00011)
+ramdocs: 19/500 (ramdocs:0020, 1 rounds, 5 calls, 5.7s, $0.00011)
+ramdocs: 20/500 (ramdocs:0019, 1 rounds, 6 calls, 6.5s, $0.00013)
+ramdocs: 21/500 (ramdocs:0018, 1 rounds, 5 calls, 7.5s, $0.00012)
+ramdocs: 22/500 (ramdocs:0022, 1 rounds, 4 calls, 6.6s, $0.00009)
+ramdocs: 23/500 (ramdocs:0024, 1 rounds, 5 calls, 5.0s, $0.00010)
+ramdocs: 24/500 (ramdocs:0023, 1 rounds, 5 calls, 7.2s, $0.00012)
+ramdocs: 25/500 (ramdocs:0021, 1 rounds, 8 calls, 10.5s, $0.00020)
+ramdocs: 26/500 (ramdocs:0028, 1 rounds, 5 calls, 4.2s, $0.00010)
+ramdocs: 27/500 (ramdocs:0026, 1 rounds, 5 calls, 5.7s, $0.00012)
+ramdocs: 28/500 (ramdocs:0025, 1 rounds, 6 calls, 6.6s, $0.00017)
+ramdocs: 29/500 (ramdocs:0027, 1 rounds, 3 calls, 7.3s, $0.00006)
+ramdocs: 30/500 (ramdocs:0029, 1 rounds, 3 calls, 6.2s, $0.00006)
+ramdocs: 31/500 (ramdocs:0030, 1 rounds, 5 calls, 6.1s, $0.00011)
+ramdocs: 32/500 (ramdocs:0031, 1 rounds, 6 calls, 5.5s, $0.00013)
+ramdocs: 33/500 (ramdocs:0033, 1 rounds, 5 calls, 5.4s, $0.00013)
+ramdocs: 34/500 (ramdocs:0034, 1 rounds, 2 calls, 5.4s, $0.00004)
+ramdocs: 35/500 (ramdocs:0032, 1 rounds, 5 calls, 6.9s, $0.00013)
+ramdocs: 36/500 (ramdocs:0035, 1 rounds, 3 calls, 5.7s, $0.00006)
+ramdocs: 37/500 (ramdocs:0036, 1 rounds, 5 calls, 5.6s, $0.00012)
+ramdocs: 38/500 (ramdocs:0037, 1 rounds, 5 calls, 5.3s, $0.00011)
+ramdocs: 39/500 (ramdocs:0038, 1 rounds, 4 calls, 5.2s, $0.00009)
+ramdocs: 40/500 (ramdocs:0042, 1 rounds, 3 calls, 4.2s, $0.00005)
+ramdocs: 41/500 (ramdocs:0041, 1 rounds, 7 calls, 5.5s, $0.00016)
+ramdocs: 42/500 (ramdocs:0040, 1 rounds, 4 calls, 6.4s, $0.00009)
+ramdocs: 43/500 (ramdocs:0043, 1 rounds, 4 calls, 4.6s, $0.00009)
+ramdocs: 44/500 (ramdocs:0039, 1 rounds, 5 calls, 8.1s, $0.00012)
+ramdocs: 45/500 (ramdocs:0044, 1 rounds, 3 calls, 5.5s, $0.00006)
+ramdocs: 46/500 (ramdocs:0045, 1 rounds, 6 calls, 5.8s, $0.00014)
+ramdocs: 47/500 (ramdocs:0046, 1 rounds, 3 calls, 6.3s, $0.00006)
+ramdocs: 48/500 (ramdocs:0049, 1 rounds, 4 calls, 6.1s, $0.00009)
+ramdocs: 49/500 (ramdocs:0047, 1 rounds, 4 calls, 7.1s, $0.00010)
+ramdocs: 50/500 (ramdocs:0051, 1 rounds, 3 calls, 6.5s, $0.00007)
+ramdocs: 51/500 (ramdocs:0048, 1 rounds, 4 calls, 7.8s, $0.00010)
+ramdocs: 52/500 (ramdocs:0053, 1 rounds, 6 calls, 5.4s, $0.00013)
+ramdocs: 53/500 (ramdocs:0052, 1 rounds, 6 calls, 6.9s, $0.00013)
+ramdocs: 54/500 (ramdocs:0054, 1 rounds, 6 calls, 6.5s, $0.00014)
+ramdocs: 55/500 (ramdocs:0058, 1 rounds, 3 calls, 3.7s, $0.00006)
+ramdocs: 56/500 (ramdocs:0057, 1 rounds, 3 calls, 4.8s, $0.00006)
+ramdocs: 57/500 (ramdocs:0055, 1 rounds, 3 calls, 6.0s, $0.00007)
+ramdocs: 58/500 (ramdocs:0059, 1 rounds, 5 calls, 5.2s, $0.00010)
+ramdocs: 59/500 (ramdocs:0050, 2 rounds, 9 calls, 13.1s, $0.00028)
+ramdocs: 60/500 (ramdocs:0056, 1 rounds, 5 calls, 7.1s, $0.00011)
+ramdocs: 61/500 (ramdocs:0060, 1 rounds, 7 calls, 6.5s, $0.00017)
+ramdocs: 62/500 (ramdocs:0061, 1 rounds, 4 calls, 6.0s, $0.00009)
+ramdocs: 63/500 (ramdocs:0062, 1 rounds, 4 calls, 6.8s, $0.00008)
+ramdocs: 64/500 (ramdocs:0064, 1 rounds, 5 calls, 6.0s, $0.00012)
+ramdocs: 65/500 (ramdocs:0063, 1 rounds, 5 calls, 7.2s, $0.00012)
+ramdocs: 66/500 (ramdocs:0066, 1 rounds, 8 calls, 5.8s, $0.00017)
+ramdocs: 67/500 (ramdocs:0067, 1 rounds, 6 calls, 7.7s, $0.00013)
+ramdocs: 68/500 (ramdocs:0065, 1 rounds, 3 calls, 8.6s, $0.00008)
+ramdocs: 69/500 (ramdocs:0069, 1 rounds, 4 calls, 6.2s, $0.00009)
+ramdocs: 70/500 (ramdocs:0068, 1 rounds, 5 calls, 6.8s, $0.00011)
+ramdocs: 71/500 (ramdocs:0070, 1 rounds, 6 calls, 5.4s, $0.00013)
+ramdocs: 72/500 (ramdocs:0072, 1 rounds, 4 calls, 5.6s, $0.00008)
+ramdocs: 73/500 (ramdocs:0073, 1 rounds, 4 calls, 6.5s, $0.00009)
+ramdocs: 74/500 (ramdocs:0071, 1 rounds, 5 calls, 7.5s, $0.00012)
+ramdocs: 75/500 (ramdocs:0075, 1 rounds, 6 calls, 4.7s, $0.00013)
+ramdocs: 76/500 (ramdocs:0074, 1 rounds, 4 calls, 6.4s, $0.00009)
+ramdocs: 77/500 (ramdocs:0076, 1 rounds, 4 calls, 5.9s, $0.00010)
+ramdocs: 78/500 (ramdocs:0077, 1 rounds, 5 calls, 7.8s, $0.00012)
+ramdocs: 79/500 (ramdocs:0079, 1 rounds, 5 calls, 5.9s, $0.00011)
+ramdocs: 80/500 (ramdocs:0078, 1 rounds, 2 calls, 6.9s, $0.00004)
+ramdocs: 81/500 (ramdocs:0082, 1 rounds, 6 calls, 6.0s, $0.00013)
+ramdocs: 82/500 (ramdocs:0081, 1 rounds, 6 calls, 7.5s, $0.00015)
+ramdocs: 83/500 (ramdocs:0083, 1 rounds, 3 calls, 6.0s, $0.00006)
+ramdocs: 84/500 (ramdocs:0084, 1 rounds, 3 calls, 6.3s, $0.00006)
+ramdocs: 85/500 (ramdocs:0087, 1 rounds, 3 calls, 5.7s, $0.00006)
+ramdocs: 86/500 (ramdocs:0085, 1 rounds, 3 calls, 6.8s, $0.00007)
+ramdocs: 87/500 (ramdocs:0089, 1 rounds, 4 calls, 4.7s, $0.00009)
+ramdocs: 88/500 (ramdocs:0090, 1 rounds, 5 calls, 4.9s, $0.00011)
+ramdocs: 89/500 (ramdocs:0088, 1 rounds, 7 calls, 6.4s, $0.00017)
+ramdocs: 90/500 (ramdocs:0086, 1 rounds, 4 calls, 8.6s, $0.00011)
+ramdocs: 91/500 (ramdocs:0091, 1 rounds, 5 calls, 4.9s, $0.00010)
+ramdocs: 92/500 (ramdocs:0092, 1 rounds, 5 calls, 4.8s, $0.00011)
+ramdocs: 93/500 (ramdocs:0080, 3 rounds, 13 calls, 17.4s, $0.00044)
+ramdocs: 94/500 (ramdocs:0098, 1 rounds, 2 calls, 5.4s, $0.00004)
+ramdocs: 95/500 (ramdocs:0094, 1 rounds, 4 calls, 6.4s, $0.00009)
+ramdocs: 96/500 (ramdocs:0095, 1 rounds, 5 calls, 6.4s, $0.00011)
+ramdocs: 97/500 (ramdocs:0093, 1 rounds, 4 calls, 8.9s, $0.00010)
+ramdocs: 98/500 (ramdocs:0099, 1 rounds, 2 calls, 4.5s, $0.00004)
+ramdocs: 99/500 (ramdocs:0097, 1 rounds, 5 calls, 7.6s, $0.00012)
+ramdocs: 100/500 (ramdocs:0096, 1 rounds, 6 calls, 7.9s, $0.00014)
+ramdocs: 101/500 (ramdocs:0103, 1 rounds, 3 calls, 7.6s, $0.00006)
+ramdocs: 102/500 (ramdocs:0102, 1 rounds, 6 calls, 8.5s, $0.00013)
+ramdocs: 103/500 (ramdocs:0105, 1 rounds, 6 calls, 8.2s, $0.00015)
+ramdocs: 104/500 (ramdocs:0104, 1 rounds, 8 calls, 8.4s, $0.00020)
+ramdocs: 105/500 (ramdocs:0101, 1 rounds, 9 calls, 9.4s, $0.00022)
+ramdocs: 106/500 (ramdocs:0100, 1 rounds, 4 calls, 11.2s, $0.00009)
+ramdocs: 107/500 (ramdocs:0107, 1 rounds, 4 calls, 8.1s, $0.00009)
+ramdocs: 108/500 (ramdocs:0106, 1 rounds, 7 calls, 8.4s, $0.00016)
+ramdocs: 109/500 (ramdocs:0109, 1 rounds, 5 calls, 8.3s, $0.00010)
+ramdocs: 110/500 (ramdocs:0108, 1 rounds, 3 calls, 8.9s, $0.00006)
+ramdocs: 111/500 (ramdocs:0111, 1 rounds, 6 calls, 8.6s, $0.00014)
+ramdocs: 112/500 (ramdocs:0113, 1 rounds, 6 calls, 8.4s, $0.00014)
+ramdocs: 113/500 (ramdocs:0114, 1 rounds, 8 calls, 8.2s, $0.00018)
+ramdocs: 114/500 (ramdocs:0110, 1 rounds, 9 calls, 9.7s, $0.00025)
+ramdocs: 115/500 (ramdocs:0112, 1 rounds, 3 calls, 9.7s, $0.00006)
+ramdocs: 116/500 (ramdocs:0115, 1 rounds, 9 calls, 9.6s, $0.00022)
+ramdocs: 117/500 (ramdocs:0116, 1 rounds, 9 calls, 7.6s, $0.00022)
+ramdocs: 118/500 (ramdocs:0120, 1 rounds, 3 calls, 6.3s, $0.00006)
+ramdocs: 119/500 (ramdocs:0117, 1 rounds, 5 calls, 8.2s, $0.00013)
+ramdocs: 120/500 (ramdocs:0118, 1 rounds, 7 calls, 7.2s, $0.00016)
+ramdocs: 121/500 (ramdocs:0122, 1 rounds, 5 calls, 7.7s, $0.00012)
+ramdocs: 122/500 (ramdocs:0121, 1 rounds, 4 calls, 7.9s, $0.00009)
+ramdocs: 123/500 (ramdocs:0119, 1 rounds, 6 calls, 9.2s, $0.00014)
+ramdocs: 124/500 (ramdocs:0123, 1 rounds, 4 calls, 9.6s, $0.00009)
+ramdocs: 125/500 (ramdocs:0124, 1 rounds, 6 calls, 6.1s, $0.00014)
+ramdocs: 126/500 (ramdocs:0126, 1 rounds, 8 calls, 8.4s, $0.00018)
+ramdocs: 127/500 (ramdocs:0125, 1 rounds, 4 calls, 9.1s, $0.00010)
+ramdocs: 128/500 (ramdocs:0129, 1 rounds, 6 calls, 8.2s, $0.00014)
+ramdocs: 129/500 (ramdocs:0128, 1 rounds, 6 calls, 8.4s, $0.00015)
+ramdocs: 130/500 (ramdocs:0130, 1 rounds, 7 calls, 8.2s, $0.00017)
+ramdocs: 131/500 (ramdocs:0127, 1 rounds, 9 calls, 10.4s, $0.00025)
+ramdocs: 132/500 (ramdocs:0132, 1 rounds, 6 calls, 5.4s, $0.00013)
+ramdocs: 133/500 (ramdocs:0131, 1 rounds, 8 calls, 6.3s, $0.00018)
+ramdocs: 134/500 (ramdocs:0133, 1 rounds, 9 calls, 6.6s, $0.00021)
+ramdocs: 135/500 (ramdocs:0134, 1 rounds, 3 calls, 7.6s, $0.00006)
+ramdocs: 136/500 (ramdocs:0136, 1 rounds, 6 calls, 6.7s, $0.00014)
+ramdocs: 137/500 (ramdocs:0135, 1 rounds, 5 calls, 7.2s, $0.00012)
+ramdocs: 138/500 (ramdocs:0139, 1 rounds, 8 calls, 6.5s, $0.00020)
+ramdocs: 139/500 (ramdocs:0137, 1 rounds, 5 calls, 7.0s, $0.00012)
+ramdocs: 140/500 (ramdocs:0138, 1 rounds, 6 calls, 7.5s, $0.00015)
+ramdocs: 141/500 (ramdocs:0140, 1 rounds, 4 calls, 8.1s, $0.00009)
+ramdocs: 142/500 (ramdocs:0141, 1 rounds, 7 calls, 8.6s, $0.00016)
+ramdocs: 143/500 (ramdocs:0142, 1 rounds, 6 calls, 8.4s, $0.00015)
+ramdocs: 144/500 (ramdocs:0146, 1 rounds, 9 calls, 8.0s, $0.00021)
+ramdocs: 145/500 (ramdocs:0143, 1 rounds, 6 calls, 8.9s, $0.00018)
+ramdocs: 146/500 (ramdocs:0145, 1 rounds, 4 calls, 8.5s, $0.00009)
+ramdocs: 147/500 (ramdocs:0147, 1 rounds, 7 calls, 8.5s, $0.00016)
+ramdocs: 148/500 (ramdocs:0144, 1 rounds, 9 calls, 9.7s, $0.00023)
+ramdocs: 149/500 (ramdocs:0148, 1 rounds, 7 calls, 8.0s, $0.00017)
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/debate: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/debate: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/debate: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/debate: retry 1 in 1s after HTTP Error 429: Too Many Requests
+ramdocs: 150/500 (ramdocs:0149, 1 rounds, 7 calls, 8.3s, $0.00016)
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/debate: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/debate: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/debate: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/debate: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/debate: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/debate: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/debate: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/debate: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/debate: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/debate: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/debate: retry 3 in 4s after HTTP Error 429: Too Many Requests
+ramdocs: 151/500 (ramdocs:0155, 1 rounds, 10 calls, 11.4s, $0.00023)
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 1 in 1s after HTTP Error 429: Too Many Requests
+ramdocs: 152/500 (ramdocs:0153, 1 rounds, 6 calls, 16.0s, $0.00013)
+ramdocs: 153/500 (ramdocs:0152, 1 rounds, 6 calls, 16.4s, $0.00016)
+debate_gating/fuse: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+ramdocs: 154/500 (ramdocs:0150, 1 rounds, 5 calls, 17.3s, $0.00011)
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+ramdocs: 155/500 (ramdocs:0151, 1 rounds, 4 calls, 17.9s, $0.00010)
+debate_gating/fuse: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+ramdocs: 156/500 (ramdocs:0156, 1 rounds, 9 calls, 25.2s, $0.00021)
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+ramdocs: 157/500 (ramdocs:0157, 1 rounds, 6 calls, 20.4s, $0.00014)
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+ramdocs: 158/500 (ramdocs:0154, 2 rounds, 11 calls, 28.1s, $0.00033)
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 1 in 1s after HTTP Error 429: Too Many Requests
+ramdocs: 159/500 (ramdocs:0159, 1 rounds, 7 calls, 21.4s, $0.00017)
+ramdocs: 160/500 (ramdocs:0158, 1 rounds, 11 calls, 25.3s, $0.00027)
+debate_gating/fuse: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+ramdocs: 161/500 (ramdocs:0160, 1 rounds, 7 calls, 23.1s, $0.00017)
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+ramdocs: 162/500 (ramdocs:0163, 1 rounds, 7 calls, 20.7s, $0.00014)
+ramdocs: 163/500 (ramdocs:0161, 1 rounds, 4 calls, 30.9s, $0.00008)
+ramdocs: 164/500 (ramdocs:0162, 1 rounds, 5 calls, 29.9s, $0.00011)
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 1 in 1s after HTTP Error 429: Too Many Requests
+ramdocs: 165/500 (ramdocs:0164, 1 rounds, 5 calls, 23.7s, $0.00011)
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+ramdocs: 166/500 (ramdocs:0165, 1 rounds, 5 calls, 22.5s, $0.00014)
+debate_gating/fuse: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 3 in 4s after HTTP Error 429: Too Many Requests
+ramdocs: 167/500 (ramdocs:0168, 1 rounds, 8 calls, 19.6s, $0.00019)
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+ramdocs: 168/500 (ramdocs:0166, 1 rounds, 8 calls, 23.4s, $0.00019)
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 1 in 1s after HTTP Error 429: Too Many Requests
+ramdocs: 169/500 (ramdocs:0167, 1 rounds, 7 calls, 23.5s, $0.00016)
+debate_gating/fuse: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+ramdocs: 170/500 (ramdocs:0169, 1 rounds, 7 calls, 24.0s, $0.00016)
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+ramdocs: 171/500 (ramdocs:0170, 1 rounds, 5 calls, 24.5s, $0.00010)
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requestsdebate_gating/fuse: retry 2 in 2s after HTTP Error 429: Too Many Requests
+
+debate_gating/debate: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/debate: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/debate: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/debate: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 1 in 1s after HTTP Error 429: Too Many Requests
+ramdocs: 172/500 (ramdocs:0172, 1 rounds, 6 calls, 32.1s, $0.00015)
+debate_gating/fuse: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 2 in 2s after HTTP Error 429: Too Many Requests
+ramdocs: 173/500 (ramdocs:0175, 1 rounds, 10 calls, 22.2s, $0.00024)
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+ramdocs: 174/500 (ramdocs:0173, 1 rounds, 9 calls, 32.2s, $0.00022)
+debate_gating/fuse: retry 2 in 2s after HTTP Error 429: Too Many Requests
+ramdocs: 175/500 (ramdocs:0171, 1 rounds, 4 calls, 36.3s, $0.00010)
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+ramdocs: 176/500 (ramdocs:0176, 1 rounds, 8 calls, 30.1s, $0.00018)
+ramdocs: 177/500 (ramdocs:0177, 1 rounds, 6 calls, 21.2s, $0.00013)
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 1 in 1s after HTTP Error 429: Too Many Requests
+ramdocs: 178/500 (ramdocs:0178, 1 rounds, 3 calls, 23.2s, $0.00007)
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 1 in 1s after HTTP Error 429: Too Many Requests
+ramdocs: 179/500 (ramdocs:0174, 2 rounds, 9 calls, 36.9s, $0.00032)
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 3 in 4s after HTTP Error 429: Too Many Requests
+ramdocs: 180/500 (ramdocs:0181, 1 rounds, 7 calls, 17.5s, $0.00015)
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+ramdocs: 181/500 (ramdocs:0180, 1 rounds, 7 calls, 22.1s, $0.00015)
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 1 in 1s after HTTP Error 429: Too Many Requests
+ramdocs: 182/500 (ramdocs:0179, 1 rounds, 5 calls, 23.1s, $0.00014)
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+ramdocs: 183/500 (ramdocs:0182, 1 rounds, 7 calls, 21.8s, $0.00016)
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+ramdocs: 184/500 (ramdocs:0183, 1 rounds, 8 calls, 24.0s, $0.00018)
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+ramdocs: 185/500 (ramdocs:0184, 1 rounds, 6 calls, 23.4s, $0.00013)
+debate_gating/fuse: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+ramdocs: 186/500 (ramdocs:0185, 1 rounds, 5 calls, 21.1s, $0.00011)
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requestsdebate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 2 in 2s after HTTP Error 429: Too Many Requests
+ramdocs: 187/500 (ramdocs:0186, 1 rounds, 7 calls, 23.6s, $0.00016)
+debate_gating/fuse: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+ramdocs: 188/500 (ramdocs:0188, 1 rounds, 4 calls, 19.0s, $0.00009)
+ramdocs: 189/500 (ramdocs:0190, 1 rounds, 6 calls, 20.4s, $0.00015)
+ramdocs: 190/500 (ramdocs:0187, 1 rounds, 8 calls, 25.8s, $0.00020)
+ramdocs: 191/500 (ramdocs:0189, 1 rounds, 5 calls, 21.5s, $0.00012)
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+ramdocs: 192/500 (ramdocs:0191, 1 rounds, 3 calls, 13.7s, $0.00006)
+debate_gating/fuse: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 3 in 4s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 3 in 4s after HTTP Error 429: Too Many Requests
+ramdocs: 193/500 (ramdocs:0192, 1 rounds, 6 calls, 21.9s, $0.00012)
+ramdocs: 194/500 (ramdocs:0193, 1 rounds, 6 calls, 22.7s, $0.00014)
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+ramdocs: 195/500 (ramdocs:0195, 1 rounds, 3 calls, 15.0s, $0.00006)
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+ramdocs: 196/500 (ramdocs:0194, 1 rounds, 6 calls, 20.5s, $0.00014)
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+ramdocs: 197/500 (ramdocs:0196, 1 rounds, 3 calls, 14.2s, $0.00007)
+debate_gating/fuse: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 1 in 1s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/answer: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 2 in 2s after HTTP Error 429: Too Many Requests
+debate_gating/fuse: retry 2 in 2s after HTTP Error 429: Too Many Requests

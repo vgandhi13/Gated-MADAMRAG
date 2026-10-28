@@ -1,0 +1,36 @@
+{
+  "config": {
+    "dataset": "ramdocs",
+    "baseline": "debate_gating",
+    "api_url": "https://api.siliconflow.com/v1/chat/completions",
+    "model": "Qwen/Qwen3-8B",
+    "input_sha256": "c67f699c97349f00cf1bd08d1dbf8ca1d0cc38c306715c93a10a4f961dcf28b7",
+    "threshold": 95.0,
+    "max_rounds": 3,
+    "max_new_tokens": 128,
+    "temperature": 0.0,
+    "enable_thinking": false,
+    "thinking_budget": null,
+    "seed": 42,
+    "limit": null,
+    "price_usd_per_million_tokens": {
+      "input": 0.06,
+      "output": 0.06
+    }
+  },
+  "sessions": [
+    {
+      "started_at": "2026-10-28T19:58:40.611858+00:00",
+      "workers": 8,
+      "max_concurrency": 16
+    },
+    {
+      "started_at": "2026-10-28T20:03:30.455330+00:00",
+      "workers": 3,
+      "max_concurrency": 6,
+      "finished_at": "2026-10-28T20:23:54.988884+00:00",
+      "wall_seconds": 1224.5228692039382,
+      "queries": 303
+    }
+  ]
+}

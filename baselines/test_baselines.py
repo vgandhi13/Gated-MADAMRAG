@@ -10,6 +10,8 @@ from pathlib import Path
 from unittest.mock import patch
 
 from baselines.data import load_examples
+from baselines.DebateGating.run_debate_gating import (
+    debate_gating, gate_confidence, parse_reply)
 from baselines.madam_adapter import run_original_debate, run_original_batch
 from baselines.NoRAG.run_no_rag import build_prompt as no_rag_prompt
 from baselines.StandardRAG.run_standard_rag import build_prompt as rag_prompt
@@ -37,6 +39,25 @@ class FakeBackend:
             calls.append({'text': text, 'stage': stage, 'input_tokens': 10,
                           'output_tokens': 5, 'finish_reason': 'stop'})
         return calls
+
+
+class FakeGatedLLM:
+    """Agents report `confidences` per round; the fuse call returns Paris."""
+    def __init__(self, confidences):
+        self.confidences = confidences
+        self.round = 0
+        self.prompts = []
+
+    def __call__(self, prompts, stage):
+        self.prompts += prompts
+        if stage.endswith('fuse'):
+            texts = ['All Correct Answers: ["Paris"]. Explanation: Supported.']
+        else:
+            confidence = self.confidences[min(self.round, len(self.confidences) - 1)]
+            self.round += 1
+            texts = [f'Answer: Paris\nEvidence: Doc says so.\nConfidence: {confidence}'] * len(prompts)
+        return [{'text': t, 'stage': stage, 'input_tokens': 10, 'output_tokens': 5,
+                 'finish_reason': 'stop'} for t in texts]
 
 
 class BaselineTests(unittest.TestCase):
@@ -186,6 +207,50 @@ class BaselineTests(unittest.TestCase):
                                      gpu_memory_utilization=.90)
         profile = apply_gpu_profile(args, 44.4)
         self.assertEqual(profile['requested'], profile['resolved'])
+
+    def test_debate_gating_parses_reply(self):
+        reply = parse_reply('Answer: Paris.\nEvidence: Paris is the capital.\nConfidence: 97')
+        self.assertEqual(reply, {'answer': 'Paris', 'evidence': 'Paris is the capital.',
+                                 'confidence': 97.0})
+        self.assertEqual(parse_reply('no format')['confidence'], 0.0)
+        self.assertEqual(parse_reply('Answer: x\nConfidence: 150')['confidence'], 100.0)
+
+    def test_debate_gating_unknown_agents_abstain(self):
+        replies = [{'answer': 'Paris', 'confidence': 96}, {'answer': 'unknown', 'confidence': 10}]
+        self.assertEqual(gate_confidence(replies), 96)
+        self.assertEqual(gate_confidence([{'answer': 'Unknown.', 'confidence': 0}]), 100)
+
+    def test_debate_gating_skips_debate_when_confident(self):
+        docs = [{'title': '', 'text': 'Paris'}] * 3
+        result = debate_gating({'question': 'Capital?', 'documents': docs},
+                               FakeGatedLLM([98]), max_rounds=3)
+        self.assertTrue(result['converged'])
+        self.assertEqual(result['rounds'], 1)
+        self.assertEqual(len(result['calls']), 4)
+        self.assertEqual(parse_answers(result['prediction']), (['Paris'], True))
+
+    def test_debate_gating_debates_until_gate_or_max_rounds(self):
+        docs = [{'title': '', 'text': 'Paris'}] * 3
+        result = debate_gating({'question': 'Capital?', 'documents': docs},
+                               FakeGatedLLM([50, 96]), max_rounds=3)
+        self.assertEqual((result['rounds'], len(result['calls'])), (2, 7))
+        self.assertTrue(result['converged'])
+        result = debate_gating({'question': 'Capital?', 'documents': docs},
+                               FakeGatedLLM([50]), max_rounds=3)
+        self.assertEqual((result['rounds'], len(result['calls'])), (3, 10))
+        self.assertFalse(result['converged'])
+
+    def test_debate_gating_prompts_hide_annotations_and_share_peers(self):
+        docs = [{'id': 'private-id', 'title': '', 'text': f'passage-{i}', 'type': 'LABEL-misinfo',
+                 'answer': 'SECRET'} for i in range(2)]
+        llm = FakeGatedLLM([50, 99])
+        debate_gating({'question': 'Capital?', 'documents': docs}, llm)
+        for private in ['private-id', 'SECRET', 'LABEL-misinfo']:
+            self.assertFalse(any(private in p for p in llm.prompts))
+        debate = llm.prompts[2]
+        self.assertIn('passage-0', debate)
+        self.assertIn('Agent 2: Answer: Paris. Evidence: Doc says so. Confidence: 50.', debate)
+        self.assertIn('Your previous reply:\nAgent 1:', debate)
 
 
 if __name__ == '__main__':

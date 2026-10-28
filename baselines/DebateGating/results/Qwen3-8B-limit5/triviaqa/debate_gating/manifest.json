@@ -1,0 +1,31 @@
+{
+  "config": {
+    "dataset": "triviaqa",
+    "baseline": "debate_gating",
+    "api_url": "https://api.siliconflow.com/v1/chat/completions",
+    "model": "Qwen/Qwen3-8B",
+    "input_sha256": "510a977cc5c995fa9d0f507f3f542e4fec3ee3551e6b12e04094e5b62b2fce44",
+    "threshold": 95.0,
+    "max_rounds": 3,
+    "max_new_tokens": 128,
+    "temperature": 0.0,
+    "enable_thinking": false,
+    "thinking_budget": null,
+    "seed": 42,
+    "limit": 5,
+    "price_usd_per_million_tokens": {
+      "input": 0.06,
+      "output": 0.06
+    }
+  },
+  "sessions": [
+    {
+      "started_at": "2026-10-28T19:51:41.688562+00:00",
+      "workers": 8,
+      "max_concurrency": 16,
+      "finished_at": "2026-10-28T19:51:55.896861+00:00",
+      "wall_seconds": 14.2073549029883,
+      "queries": 5
+    }
+  ]
+}

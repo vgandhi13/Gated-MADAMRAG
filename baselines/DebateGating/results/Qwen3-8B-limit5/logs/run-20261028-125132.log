@@ -1,0 +1,14 @@
+ramdocs: 0 saved, 5 remaining
+ramdocs: 1/5 (ramdocs:0000, 1 rounds, 4 calls, 6.3s, $0.00011)
+ramdocs: 2/5 (ramdocs:0001, 1 rounds, 5 calls, 6.7s, $0.00011)
+ramdocs: 3/5 (ramdocs:0003, 1 rounds, 6 calls, 7.0s, $0.00015)
+ramdocs: 4/5 (ramdocs:0004, 1 rounds, 4 calls, 7.0s, $0.00009)
+ramdocs: 5/5 (ramdocs:0002, 1 rounds, 8 calls, 9.4s, $0.00019)
+{"dataset": "ramdocs", "examples": 5, "accuracy": 0.2, "precision": 0.3, "recall": 0.4, "f1": 0.3333333333333333, "misinformation": 0.2, "format_valid": 1.0, "mean_input_tokens": 1976.6, "mean_output_tokens": 208.2, "mean_total_tokens": 2184.8, "mean_llm_calls": 5.4, "mean_rounds": 1.0, "total_input_tokens": 9883, "total_output_tokens": 1041, "length_limited_calls": 0, "gate_pass_rate": 1.0, "early_stop_rate": 1.0, "mean_reasoning_tokens": 0.0, "total_cost_usd": 0.00065544, "mean_cost_usd": 0.000131088, "mean_query_seconds": 7.253138944786042, "wall_seconds": 9.357675721868873}
+triviaqa: 0 saved, 5 remaining
+triviaqa: 1/5 (qf_158, 1 rounds, 6 calls, 6.8s, $0.00014)
+triviaqa: 2/5 (qw_6702, 1 rounds, 6 calls, 8.2s, $0.00018)
+triviaqa: 3/5 (qz_1230, 1 rounds, 6 calls, 8.6s, $0.00017)
+triviaqa: 4/5 (qb_10037, 1 rounds, 6 calls, 8.9s, $0.00014)
+triviaqa: 5/5 (bb_6487, 2 rounds, 11 calls, 14.2s, $0.00041)
+{"dataset": "triviaqa", "examples": 5, "accuracy": 0.6, "precision": 0.7, "recall": 0.8, "f1": 0.7333333333333333, "misinformation": 0.0, "format_valid": 1.0, "triviaqa_em": 0.8, "triviaqa_token_f1": 0.8571428571428571, "mean_input_tokens": 3134.6, "mean_output_tokens": 357.4, "mean_total_tokens": 3492.0, "mean_llm_calls": 7.0, "mean_rounds": 1.2, "total_input_tokens": 15673, "total_output_tokens": 1787, "length_limited_calls": 1, "gate_pass_rate": 1.0, "early_stop_rate": 0.8, "mean_reasoning_tokens": 0.0, "total_cost_usd": 0.0010476, "mean_cost_usd": 0.00020952, "mean_query_seconds": 9.341902165440843, "wall_seconds": 14.2073549029883}
