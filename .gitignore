@@ -5,6 +5,11 @@
 /results/
 /logs/
 /cache/
-/data/*
-!/data/download_manifest.json
 **/IR_Project_Proposal*.pdf
+/work/
+/local/*
+!/local/*.example
+/save.txt
+/current_progress.md
+/AGENTS.md
+/baselines/RAMDOCS_PROGRESS.md

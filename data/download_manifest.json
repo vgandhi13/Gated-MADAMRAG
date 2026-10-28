@@ -12,16 +12,47 @@
       "matches_repository_copy": true
     },
     {
-      "path": "triviaqa/trivia-test.qa.csv.gz",
-      "source_url": "https://dl.fbaipublicfiles.com/dpr/data/retriever/trivia-test.qa.csv.gz",
-      "resolved_url": "https://dl.fbaipublicfiles.com/dpr/data/retriever/trivia-test.qa.csv.gz",
-      "bytes": 1395592,
-      "sha256": "e8adaadb1e5b4f010b17b34a47e2ccac5dc6e4a863588642d5d292c682f1bc1f",
-      "examples": 11313,
+      "path": "triviaqa/TriviaQA_fid_test_500.jsonl",
+      "bytes": 34176988,
+      "sha256": "cb309c45d4687407221bfbcc5835c6e77ab3eac999584d302329927a25685b6f",
+      "examples": 500,
+      "source_dataset": "FiD TriviaQA",
+      "source_split": "test",
+      "random_seed": 42,
+      "manifest_path": "triviaqa/manifest.json",
+      "contains_retrieved_passages": true,
+      "require_answer_string": true,
+      "answer_present_questions": 500,
+      "sampling": "Random candidates without replacement; retain first 500 with a reference answer string in supplied passages."
+    },
+    {
+      "path": "triviaqa/TriviaQA_fid_test_500.answer_presence.jsonl",
+      "bytes": 404731,
+      "sha256": "b2a447b66c403342187639a910b56fd0760a9faf10fe7775e6ee850943ed5a85",
+      "examples": 500,
+      "source_dataset": "FiD TriviaQA",
+      "source_split": "test",
+      "random_seed": 42,
+      "manifest_path": "triviaqa/manifest.json",
       "contains_retrieved_passages": false,
-      "uncompressed_path": "triviaqa/trivia-test.qa.csv",
-      "uncompressed_bytes": 4098200,
-      "uncompressed_sha256": "041ed9ddd2977c7fe452d290cf60e1f7e0a803977b0f912e234d218261c10e57"
+      "require_answer_string": true,
+      "answer_present_questions": 500,
+      "sampling": "Random candidates without replacement; retain first 500 with a reference answer string in supplied passages."
+    },
+    {
+      "path": "triviaqa/TriviaQA_fid_test_500.json",
+      "bytes": 34177489,
+      "sha256": "61f615b3361118bf1f383592f45cd6df5180005db001e5b50cc1f7a0480fa1e8",
+      "examples": 500,
+      "source_dataset": "FiD TriviaQA",
+      "source_split": "test",
+      "random_seed": 42,
+      "manifest_path": "triviaqa/manifest.json",
+      "contains_retrieved_passages": true,
+      "require_answer_string": true,
+      "answer_present_questions": 500,
+      "sampling": "Random candidates without replacement; retain first 500 with a reference answer string in supplied passages."
     }
-  ]
+  ],
+  "updated_at_utc": "2026-10-27T23:22:17.239268+00:00"
 }
